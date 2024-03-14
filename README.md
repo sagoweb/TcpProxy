@@ -16,7 +16,8 @@ To start the proxy, run the program with two arguments: the inbound port and the
 This will start the proxy, listening for incoming connections on the specified port and forwarding the traffic to the specified outbound address and port.
 For example, to start the proxy listening on port 8080 and forwarding traffic to `192.168.1.100:8081`, run:
 TcpProxy.exe 8080 192.168.1.100:8081
-If you want to log the data to a file, you have to redirect the output to a file, like this:
+If you want to log the data to a file, you have to redirect the output to a file:
+
 TcpProxy.exe 8080 192.168.1.100:8081 > log.txt
 
 ## Note
